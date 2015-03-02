@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <channel>
+    <title><![CDATA[Meu Blog]]></title>
+    <atom:link href="http://localhost:3333/rss.xml" rel="self" type="application/rss+xml"/>
+    <link>http://localhost:3333</link>
+    <description><![CDATA[Um Blog Sobre Deselvolvimento Web]]></description>
+    <image>
+      <url>http://localhost:3333/myImage.jpg</url>
+      <title>Meu Blog</title>
+      <link>http://localhost:3333</link>
+    </image>
+    <pubDate>Mon, 02 Mar 2015 19:32:33 GMT</pubDate>
+    <lastBuildDate>Mon, 02 Mar 2015 19:32:33 GMT</lastBuildDate>
+    <language>en-US</language>
+    <generator>Metalsmith custom plugin</generator>
+    <ttl>60</ttl>
+    <item>
+      <title><![CDATA[Fazer ou não fazer uma faculdade]]></title>
+      <description><![CDATA[Será que hoje para um desenvolvedor é necessário o canudo ?]]></description>
+      <link>http://localhost:3333/fazer-ou-n-o-fazer-uma-faculdade/</link>
+      <guid isPermaLink="true">http://localhost:3333/fazer-ou-n-o-fazer-uma-faculdade/</guid>
+      <category><![CDATA[faculdade]]></category>
+      <category><![CDATA[profissao]]></category>
+      <dc:creator><![CDATA[Palmer. Para o RSS Feed.]]></dc:creator>
+      <pubDate>Mon, 02 Mar 2015 00:00:00 GMT</pubDate>
+      <content:encoded>
+        <![CDATA[<h2 id="fazer-ou-n-o-fazer-uma-faculdade">Fazer ou não fazer uma faculdade</h2>
+<p>Lorem <code>ipsum</code> dolor sit amet, consectetur adipisicing elit. Eaque, at corporis recusandae eius magnam ducimus explicabo reiciendis. <strong>Et eligendi</strong> illo soluta laboriosam nulla, tempore, non, praesentium nobis sit facere fuga?</p>
+]]>
+      </content:encoded>
+    </item>
+    <item>
+      <title><![CDATA[Quinto post sobre produtividade no trabalho]]></title>
+      <description><![CDATA[Como ser mais produtivo no trabalho]]></description>
+      <link>http://localhost:3333/quinto-post-sobre-produtividade-no-trabalho/</link>
+      <guid isPermaLink="true">http://localhost:3333/quinto-post-sobre-produtividade-no-trabalho/</guid>
+      <category><![CDATA[produtividade]]></category>
+      <dc:creator><![CDATA[Palmer. Para o RSS Feed.]]></dc:creator>
+      <pubDate>Fri, 20 Feb 2015 00:00:00 GMT</pubDate>
+      <content:encoded>
+        <![CDATA[<h2 id="quinto-post-sobre-produtividade-no-trabalho">Quinto post sobre produtividade no trabalho</h2>
+<ul>
+<li>Lorem ipsum dolor.</li>
+<li>Lorem ipsum dolor sit.</li>
+</ul>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat amet, sapiente rem dolorum vitae aliquid illo ducimus laboriosam, quas molestiae quaerat corporis laborum! Ducimus asperiores nesciunt vel, nam sequi quasi! Similique explicabo, temporibus tenetur maxime iusto odit facere illo eligendi corrupti, consequatur soluta in itaque commodi id inventore. Rerum reiciendis necessitatibus, quaerat atque saepe, illum enim suscipit libero numquam maxime ad tempore. Dignissimos, delectus, ipsa. Mollitia veritatis vitae expedita iste hic praesentium numquam molestias quibusdam ad sed quia libero ipsum porro, cupiditate nisi. Nobis aspernatur id doloremque mollitia inventore delectus nesciunt vitae molestias. Deleniti, blanditiis, itaque. Odit voluptatem alias corporis.</p>
+]]>
+      </content:encoded>
+    </item>
+    <item>
+      <title><![CDATA[Um Post que ainda não está pronto, portanto fica em draft]]></title>
+      <description><![CDATA[Post Não Pronto. Para o RSS Feed.]]></description>
+      <link>http://localhost:3333/um-post-que-ainda-n-o-est-pronto-portanto-fica-em-draft/</link>
+      <guid isPermaLink="true">http://localhost:3333/um-post-que-ainda-n-o-est-pronto-portanto-fica-em-draft/</guid>
+      <category><![CDATA[nodejs]]></category>
+      <dc:creator><![CDATA[Palmer. Para o RSS Feed.]]></dc:creator>
+      <pubDate>Mon, 20 Oct 2014 00:00:00 GMT</pubDate>
+      <content:encoded>
+        <![CDATA[<h2 id="rest-com-nodejs">Rest com NodeJS</h2>
+<h3 id="porque-usar-node-">Porque usar Node ?</h3>
+<p>Tenho que ver o que escrever ainda.</p>
+]]>
+      </content:encoded>
+    </item>
+    <item>
+      <title><![CDATA[Um Post de React com um Gist do Github]]></title>
+      <description><![CDATA[Usando um Gist de React. Para o RSS Feed.]]></description>
+      <link>http://localhost:3333/um-post-de-react-com-um-gist-do-github/</link>
+      <guid isPermaLink="true">http://localhost:3333/um-post-de-react-com-um-gist-do-github/</guid>
+      <category><![CDATA[react]]></category>
+      <category><![CDATA[javascript]]></category>
+      <dc:creator><![CDATA[Palmer. Para o RSS Feed.]]></dc:creator>
+      <pubDate>Sun, 19 Oct 2014 00:00:00 GMT</pubDate>
+      <content:encoded>
+        <![CDATA[<h2 id="come-ando-com-react-http-facebook-github-io-react-">Começando com <a href="http://facebook.github.io/react/">React</a>.</h2>
+<h3 id="porque-usar-react-">Porque usar React ?</h3>
+<ul>
+<li>É rápido.</li>
+<li>É organizado e modularizado.</li>
+<li>É em javascript.</li>
+<li>Eu curti.</li>
+</ul>
+<p>Vamos começar então.</p>
+<p><link rel="stylesheet" href="https://gist-assets.github.com/assets/embed-8bf0013c72fb64f0bb1bc1872b43e39e.css"><div id="gist15269250" class="gist">        <div class="gist-file">          <div class="gist-data gist-syntax">                <div class="file-data">      <table cellpadding="0" cellspacing="0" class="lines highlight">        <tr>          <td class="line-numbers">            <span class="line-number" id="file-react1-js-L1" rel="file-react1-js-L1">1</span>            <span class="line-number" id="file-react1-js-L2" rel="file-react1-js-L2">2</span>            <span class="line-number" id="file-react1-js-L3" rel="file-react1-js-L3">3</span>            <span class="line-number" id="file-react1-js-L4" rel="file-react1-js-L4">4</span>            <span class="line-number" id="file-react1-js-L5" rel="file-react1-js-L5">5</span>            <span class="line-number" id="file-react1-js-L6" rel="file-react1-js-L6">6</span>            <span class="line-number" id="file-react1-js-L7" rel="file-react1-js-L7">7</span>            <span class="line-number" id="file-react1-js-L8" rel="file-react1-js-L8">8</span>            <span class="line-number" id="file-react1-js-L9" rel="file-react1-js-L9">9</span>            <span class="line-number" id="file-react1-js-L10" rel="file-react1-js-L10">10</span>            <span class="line-number" id="file-react1-js-L11" rel="file-react1-js-L11">11</span>            <span class="line-number" id="file-react1-js-L12" rel="file-react1-js-L12">12</span>            <span class="line-number" id="file-react1-js-L13" rel="file-react1-js-L13">13</span>            <span class="line-number" id="file-react1-js-L14" rel="file-react1-js-L14">14</span>            <span class="line-number" id="file-react1-js-L15" rel="file-react1-js-L15">15</span>            <span class="line-number" id="file-react1-js-L16" rel="file-react1-js-L16">16</span>          </td>          <td class="line-data">            <pre class="line-pre"><div class="line" id="file-react1-js-LC1"><span class="pl-c">/** @jsx React.DOM */</span></div><div class="line" id="file-react1-js-LC2">&nbsp;</div><div class="line" id="file-react1-js-LC3"><span class="pl-s">var</span> Hello <span class="pl-k">=</span> React.createClass({</div><div class="line" id="file-react1-js-LC4">&nbsp;</div><div class="line" id="file-react1-js-LC5">    <span class="pl-en">getInitialState</span>: <span class="pl-st">function</span>() {</div><div class="line" id="file-react1-js-LC6">        <span class="pl-k">return</span> { title<span class="pl-k">:</span> <span class="pl-s1"><span class="pl-pds">&#39;</span>Hello World<span class="pl-pds">&#39;</span></span> };</div><div class="line" id="file-react1-js-LC7">    },</div><div class="line" id="file-react1-js-LC8">    <span class="pl-en">render</span>: <span class="pl-st">function</span>() {</div><div class="line" id="file-react1-js-LC9">        <span class="pl-k">return</span> <span class="pl-k">&lt;</span>div<span class="pl-k">&gt;&lt;</span>h1<span class="pl-k">&gt;</span>{<span class="pl-v">this</span>.state.<span class="pl-sc">title</span>}<span class="pl-k">&lt;</span>/h1<span class="pl-k">&gt;&lt;</span>/div<span class="pl-k">&gt;</span>;</div><div class="line" id="file-react1-js-LC10">    }</div><div class="line" id="file-react1-js-LC11">});</div><div class="line" id="file-react1-js-LC12">&nbsp;</div><div class="line" id="file-react1-js-LC13">React.renderComponent(</div><div class="line" id="file-react1-js-LC14">    <span class="pl-k">&lt;</span>Hello /<span class="pl-k">&gt;</span>,</div><div class="line" id="file-react1-js-LC15">    <span class="pl-s3">document</span>.<span class="pl-sc">body</span></div><div class="line" id="file-react1-js-LC16">);</div></pre>          </td>        </tr>      </table>    </div>          </div>          <div class="gist-meta">            <a href="https://gist.github.com/expalmer/43952d905d75693dea0c/raw/react1.js" style="float:right">view raw</a>            <a href="https://gist.github.com/expalmer/43952d905d75693dea0c#file-react1-js">react1.js</a>            hosted with &#10084; by <a href="https://github.com">GitHub</a>          </div>        </div></div></p>
+]]>
+      </content:encoded>
+    </item>
+    <item>
+      <title><![CDATA[Meu Segundo Post sobre MEAN]]></title>
+      <description><![CDATA[Use MEAN facilmente. Para o RSS Feed.]]></description>
+      <link>http://localhost:3333/meu-segundo-post-sobre-mean/</link>
+      <guid isPermaLink="true">http://localhost:3333/meu-segundo-post-sobre-mean/</guid>
+      <category><![CDATA[mongodb]]></category>
+      <category><![CDATA[express]]></category>
+      <category><![CDATA[angular]]></category>
+      <category><![CDATA[nodejs]]></category>
+      <category><![CDATA[javascript]]></category>
+      <dc:creator><![CDATA[Palmer. Para o RSS Feed.]]></dc:creator>
+      <pubDate>Sat, 01 Mar 2014 00:00:00 GMT</pubDate>
+      <content:encoded>
+        <![CDATA[<h2 id="aprenda-a-usar-uma-solu-o-fullstack-de-javascript">Aprenda a usar uma solução fullstack de javascript</h2>
+<h3 id="porque-usar-mean-">Porque usar MEAN ?</h3>
+<ul>
+<li>Porque você usa um única linguagem.</li>
+<li>Divertido.</li>
+<li>É em javascript.</li>
+<li>Eu curti.</li>
+</ul>
+<pre><code class="lang-custom">
+// server.js
+
+...
+
+app.configure(function() {
+
+  // set up our express application
+  app.use(express.logger(&#39;dev&#39;));
+  app.use(express.cookieParser());
+  app.use(express.bodyParser());
+
+  app.set(&#39;view engine&#39;, &#39;ejs&#39;);
+
+  // required for passport
+  app.use(express.session({ secret: &#39;mysecret&#39; }));
+  app.use(passport.initialize());
+  app.use(passport.session());
+  app.use(flash());
+
+});
+
+...
+</code></pre>
+]]>
+      </content:encoded>
+    </item>
+    <item>
+      <title><![CDATA[Meu Primeiro Post com Metalsmith]]></title>
+      <description><![CDATA[Como criar um post com Metalsmith. Para o RSS Feed.]]></description>
+      <link>http://localhost:3333/meu-primeiro-post-com-metalsmith/</link>
+      <guid isPermaLink="true">http://localhost:3333/meu-primeiro-post-com-metalsmith/</guid>
+      <category><![CDATA[metalsmith]]></category>
+      <category><![CDATA[nodejs]]></category>
+      <category><![CDATA[javascript]]></category>
+      <dc:creator><![CDATA[Palmer. Para o RSS Feed.]]></dc:creator>
+      <pubDate>Sat, 01 Mar 2014 00:00:00 GMT</pubDate>
+      <content:encoded>
+        <![CDATA[<h2 id="aprendendo-a-usar-o-metalsmith-http-metalsmith-io-">Aprendendo a usar o <a href="http://metalsmith.io">Metalsmith</a>.</h2>
+<h3 id="porque-usar-metalsmith-">Porque usar Metalsmith ?</h3>
+<ul>
+<li>É fácil.</li>
+<li>Divertido.</li>
+<li>É em javascript.</li>
+<li>Eu curti.</li>
+</ul>
+]]>
+      </content:encoded>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Meu Blog</title>
+    <link rel="stylesheet" href="http://expalmer.github.io/react-progress-form/css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Meu Blog</h1>
+      <p>Assine nosso <a href="http://expalmer.github.io/react-progress-form/rss.xml">rss</a>.</p>
+    </header>  <section>
+    <a href="http://expalmer.github.io/react-progress-form">Voltar para o Index</a>
+  </section>
+  <article>
+    <h1>Meu Segundo Post sobre MEAN</h1>
+    <time datetime="February 28, 2014">February 28, 2014</time>
+    <ul class="post__tags">
+        <li>
+          <a href="http://expalmer.github.io/react-progress-form/tags/mongodb.html" title="Posts sobre mongodb">mongodb</a>
+        </li>
+        <li>
+          <a href="http://expalmer.github.io/react-progress-form/tags/express.html" title="Posts sobre express">express</a>
+        </li>
+        <li>
+          <a href="http://expalmer.github.io/react-progress-form/tags/angular.html" title="Posts sobre angular">angular</a>
+        </li>
+        <li>
+          <a href="http://expalmer.github.io/react-progress-form/tags/nodejs.html" title="Posts sobre nodejs">nodejs</a>
+        </li>
+        <li>
+          <a href="http://expalmer.github.io/react-progress-form/tags/javascript.html" title="Posts sobre javascript">javascript</a>
+        </li>
+    </ul>
+    <div class="post__body">
+      <h2 id="aprenda-a-usar-uma-solu-o-fullstack-de-javascript">Aprenda a usar uma solução fullstack de javascript</h2>
+<h3 id="porque-usar-mean-">Porque usar MEAN ?</h3>
+<ul>
+<li>Porque você usa um única linguagem.</li>
+<li>Divertido.</li>
+<li>É em javascript.</li>
+<li>Eu curti.</li>
+</ul>
+<pre><code class="lang-custom">
+// server.js
+
+...
+
+app.configure(function() {
+
+  // set up our express application
+  app.use(express.logger(&#39;dev&#39;));
+  app.use(express.cookieParser());
+  app.use(express.bodyParser());
+
+  app.set(&#39;view engine&#39;, &#39;ejs&#39;);
+
+  // required for passport
+  app.use(express.session({ secret: &#39;mysecret&#39; }));
+  app.use(passport.initialize());
+  app.use(passport.session());
+  app.use(flash());
+
+});
+
+...
+</code></pre>
+
+    </div>
+  </article>
+      <footer>
+        made with <a href="http://www.metalsmith.io/">metalsmith</a>. take a look <a href="https://github.com/expalmer/blog-example-with-metalsmith">on github</a>
+      </footer>
+    </body>
+  </html>
