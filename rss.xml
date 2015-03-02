@@ -10,8 +10,8 @@
       <title>Meu Blog</title>
       <link>http://localhost:3333</link>
     </image>
-    <pubDate>Mon, 02 Mar 2015 19:32:33 GMT</pubDate>
-    <lastBuildDate>Mon, 02 Mar 2015 19:32:33 GMT</lastBuildDate>
+    <pubDate>Mon, 02 Mar 2015 20:00:21 GMT</pubDate>
+    <lastBuildDate>Mon, 02 Mar 2015 20:00:21 GMT</lastBuildDate>
     <language>en-US</language>
     <generator>Metalsmith custom plugin</generator>
     <ttl>60</ttl>
