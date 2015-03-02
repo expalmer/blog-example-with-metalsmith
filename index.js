@@ -11,7 +11,7 @@ var pagination   = require('metalsmith-pagination'); // <-- nova dependência
 var fs           = require('fs');
 var Handlebars   = require('handlebars');
 var moment       = require('moment');
-var baseUrl      = 'http://expalmer.github.io/react-progress-form'
+var baseUrl      = 'http://expalmer.github.io/react-progress-form';
 
 Handlebars.registerPartial({
   'header': fs.readFileSync('./templates/partials/header.hbt').toString(),
