@@ -1,0 +1,9 @@
+---
+template: rss.hbt
+untemplatized: 1
+base: http://localhost:3333
+name: Palmer Oliveira
+title: Meu Blog
+description: Um Blog Sobre Deselvolvimento Web
+image: http://localhost:3333/myImage.jpg
+---

@@ -1,0 +1,31 @@
+{{> header}}
+  <section>
+    <h1>Lista dos Posts Paginados</h1>
+    <h3>Estamos na Página ({{pagination.num}})</h3>
+    <ul>
+    {{#each pagination.files}}
+      <li>
+        <a href="{{baseUrl}}/{{this.path}}/index.html" title="{{this.title}}">
+          <h2>{{this.title}}</h2>
+          <time datetime="{{ dateFormat this.date }}">{{ dateFormat this.date }}</time>
+        </a>
+      </li>
+    {{/each}}
+    </ul>
+    <ul class="pagination">
+      {{#if pagination.previous}}
+        <li><a href="{{baseUrl}}/{{pagination.previous.path}}">Prev</a></li>
+      {{else}}
+        <li class="inactive"><span>Prev</span></li>
+      {{/if}}
+      {{#each pagination.pages}}
+        <li class="{{currentPage ../pagination.num this.pagination.num}}"><a href="{{baseUrl}}/{{this.path}}">{{this.pagination.num}}</a></li>
+      {{/each}}
+      {{#if pagination.next}}
+        <li><a href="{{baseUrl}}/{{pagination.next.path}}">Next</a></li>
+      {{else}}
+        <li class="inactive"><span>Next</span></li>
+      {{/if}}
+    </ul>
+  </section>
+{{> footer}}

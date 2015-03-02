@@ -1,0 +1,5 @@
+      <footer>
+        made with <a href="http://www.metalsmith.io/">metalsmith</a>. take a look <a href="https://github.com/expalmer/blog-example-with-metalsmith">on github</a>
+      </footer>
+    </body>
+  </html>

@@ -1,0 +1,18 @@
+  {{> header}}
+    <section>
+      <a href="{{baseUrl}}">Voltar para o Index</a>
+    </section>
+    <section>
+      <h1>Tag: <strong>{{tag}}</strong></h1>
+      <ul>
+      {{#each posts }}
+        <li>
+            <a href="{{baseUrl}}/{{this.path}}/index.html" title="{{this.title}}">
+              <h2>{{this.title}}</h2>
+              <time datetime="{{ dateFormat this.date }}">{{ dateFormat this.date }}</time>
+            </a>
+          </li>
+      {{/each}}
+      </ul>
+    </section>
+  {{> footer}}

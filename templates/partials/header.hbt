@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Meu Blog</title>
+    <link rel="stylesheet" href="{{baseUrl}}/css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Meu Blog</h1>
+      <p>Assine nosso <a href="{{baseUrl}}/rss.xml">rss</a>.</p>
+    </header>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <channel>
+    <title><![CDATA[{{this.title}}]]></title>
+    <atom:link href="{{this.base}}/rss.xml" rel="self" type="application/rss+xml"/>
+    <link>{{this.base}}</link>
+    <description><![CDATA[{{this.description}}]]></description>
+    <image>
+      <url>{{this.image}}</url>
+      <title>{{this.title}}</title>
+      <link>{{this.base}}</link>
+    </image>
+    <pubDate>{{dateGMT 'new'}}</pubDate>
+    <lastBuildDate>{{dateGMT 'new'}}</lastBuildDate>
+    <language>en-US</language>
+    <generator>Metalsmith custom plugin</generator>
+    <ttl>60</ttl>
+    {{#each collections.posts }}
+    <item>
+      <title><![CDATA[{{this.title}}]]></title>
+      <description><![CDATA[{{this.description}}]]></description>
+      <link>{{../this.base}}/{{this.path}}/</link>
+      <guid isPermaLink="true">{{../this.base}}/{{this.path}}/</guid>
+      {{#each this.tags }}
+      <category><![CDATA[{{this}}]]></category>
+      {{/each}}
+      <dc:creator><![CDATA[{{this.author}}]]></dc:creator>
+      <pubDate>{{dateGMT this.date}}</pubDate>
+      <content:encoded>
+        <![CDATA[{{{contents}}}]]>
+      </content:encoded>
+    </item>
+    {{/each}}
+  </channel>
+</rss>

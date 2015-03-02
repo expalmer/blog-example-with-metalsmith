@@ -1,0 +1,19 @@
+{
+  "name": "blog-example-with-metalsmith",
+  "description": "A blog example build with metalsmith",
+  "version": "0.1.0",
+  "dependencies": {
+    "handlebars": "^2.0.0",
+    "metalsmith": "^0.11.0",
+    "metalsmith-collections": "^0.6.0",
+    "metalsmith-drafts": "0.0.1",
+    "metalsmith-gist": "^0.3.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-pagination": "^1.0.0",
+    "metalsmith-permalinks": "^0.4.0",
+    "metalsmith-tags": "^0.6.1",
+    "metalsmith-templates": "^0.5.2",
+    "metasmith": "0.0.1",
+    "moment": "^2.8.3"
+  }
+}
